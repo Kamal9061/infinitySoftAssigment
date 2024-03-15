@@ -1,0 +1,287 @@
+.childrd {
+  position: relative;
+  justify-content: center;
+  padding-top: 20px;
+  display: flex;
+  column-gap: 10px;
+  background-color: #ebc137;
+  overflow: hidden; /* Ensure the waves don't overflow */
+}
+
+.wvaeImages{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: -30px;
+}
+
+.lastimgsvg{
+  z-index: -1;
+  background-color: transparent;
+  top: 243px;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.wave {
+  background: url(https://gist.githubusercontent.com/ratnabh/da8213a27700e0e1c2d1c81961070f6f/raw/3608a5072f4e392b852e5cc3c244841025b32c81/wave1.svg) repeat-x; 
+  position: absolute;
+  opacity:0.2;
+  bottom: 230px;
+  width: 100%;
+  height: 198px;
+  animation: wave 2s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1000px;
+  }
+}
+
+
+
+.sideImg{
+  width: auto;
+  height: 150px;
+}
+.liDiv{
+  display: grid;
+  gap: 5px;
+}
+
+.proinactive{
+  color: #ffffff;
+  padding: 5px 15px;
+  background: #FFFFFF36;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.proactive{
+  color: #BD8025;
+  padding: 5px 15px;
+  background: #FFFFFF;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inhold{
+  color: #ffffff;
+  padding: 5px 15px;
+  background: transparent;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.downLi{
+  width: 230px;
+  text-align: center;
+  list-style: none;
+  background-color: #FFFFFF;
+}
+
+.h1tag{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  gap: 5px;
+  color: #BD8025;
+
+}
+.h1tag span{
+  color: #EBC137;
+
+}
+
+.lastImg{
+  width: auto;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.lastSection{
+  justify-content: center;
+  padding-top: 20px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.lastfirst{
+  color: #BD8025;
+}
+
+.lastfirst span{
+  color: #EBC137;
+
+}
+
+.back-button {
+  height: 30px;
+  width: 30px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .childrd {
+    position: relative;
+    justify-content: center;
+    padding-top: 10px;
+    display: flex;
+    column-gap: 10px;
+    background-color: #ebc137;
+    overflow: hidden;
+  }
+  
+  .wvaeImages{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -20px;
+  }
+  
+  .lastimgsvg{
+    z-index: -1;
+    background-color: transparent;
+    top: 185px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+  
+  .wave {
+    background: url(https://gist.githubusercontent.com/ratnabh/da8213a27700e0e1c2d1c81961070f6f/raw/3608a5072f4e392b852e5cc3c244841025b32c81/wave1.svg) repeat-x; 
+    position: absolute;
+    opacity:0.2;
+    bottom: 220px;
+    width: 100%;
+    height: 140px;
+    animation: wave 2s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -1000px;
+    }
+  }
+  
+  
+  
+  .sideImg{
+    width: auto;
+    height: 125px;
+  }
+  .liDiv{
+    display: grid;
+    gap: 5px;
+  }
+  
+  .proinactive{
+    color: #ffffff;
+    padding: 4px 12px;
+    background: #FFFFFF36;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .proactive{
+    color: #BD8025;
+    padding: 4px 12px;
+    background: #FFFFFF;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .inhold{
+    color: #ffffff;
+    padding: 4px 12px;
+    background: transparent;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .downLi{
+    font-size: 14px;
+    width: 190px;
+    text-align: center;
+    list-style: none;
+    background-color: #FFFFFF;
+  }
+  
+  .h1tag{
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    color: #BD8025;
+  
+  }
+  .h1tag span{
+    font-size: 18px;
+    color: #EBC137;
+  
+  }
+  
+  .lastImg{
+    width: auto;
+    height: 170px;
+    border-radius: 8px;
+  }
+  
+  .lastSection{
+    justify-content: center;
+    padding-top: 15px;
+    display: flex;
+    column-gap: 8px;
+  }
+  
+  .lastfirst{
+    font-size: 18px;
+    color: #BD8025;
+  }
+  
+  .lastfirst span{
+    font-size: 18px;
+    color: #EBC137;
+  
+  }
+  
+  .back-button {
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+  }
+
+  .lastParagraph p{
+    font-size: 13px;
+  }
+
+  .middletag p{
+    font-size: 13px;
+  }
+
+}
